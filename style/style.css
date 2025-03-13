@@ -1,0 +1,134 @@
+body {
+    background-color: #000;
+    color: #e9e1e9;
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.container_general {
+    width: 90%;
+    margin: auto;
+    padding: 20px;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    padding: 10px;
+    border-radius: 10px;
+    border: 2px solid #ff00ff;
+}
+
+nav a {
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    color: aliceblue;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+nav:hover {
+    background: rgba(255, 0, 255, 0.5);}
+
+.container_animes {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    padding: 20px;
+    text-align: left;
+}
+
+.card {
+    border: 2px solid #ff00ff;
+    padding: 20px;
+    border-radius: 10px;
+    transition: 0.3s;
+    text-align: center;
+}
+
+.card:hover {
+    background: rgba(255, 0, 255, 0.5);
+}
+
+img {
+    width: 100%;
+    height: 50%;
+    max-width: 300px;
+    border-radius: 10px;
+    display: block;
+    margin: 10px auto;
+}
+
+p{
+    color: aliceblue;
+}
+
+.section_movies, .section_fandom, .section_events {
+    margin-top: 50px;
+    padding: 20px;
+}
+
+.section_movies table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+.section_movies th, .section_movies td {
+    border: 1px solid #7124b0;
+    padding: 10px;
+    text-align: center;
+}
+
+.section_movies th {
+    background: #8d1cb9;
+    color: #000;
+}
+
+.section_events{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+}
+.events {
+    background: rgba(119, 23, 183, 0.2);
+    border: 2px solid #4d2bc8;
+    padding: 25px;
+    margin: 20px;
+    border-radius: 10px;
+    max-width: 400px;
+    text-align: center;
+}
+.events:hover{
+    background: #4d2bc8;
+
+}
+
+.events a {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 5px 10px;
+    background: #ff00ff;
+    color: #000;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.events a:hover {
+    background: rgba(255, 0, 255, 0.8);
+}
+
+footer {
+    margin-top: 30px;
+    padding: 15px;
+    background: #ff00ff;
+    color: #000;
+    font-weight: bold;
+    text-align: center;
+}
+
